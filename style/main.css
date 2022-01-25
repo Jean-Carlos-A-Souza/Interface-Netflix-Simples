@@ -1,0 +1,139 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background:var(--preto) ;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+}
+
+header .logo{
+    color: var(--vermelho);
+    margin-left: 15px;
+    font-family: 'Arial Black';
+    font-size: 45px;
+    margin-right: 10px;
+}
+
+header .login{
+    text-decoration: none;
+    color: #AAA;
+    font-size: 20px;
+    margin-right: 15px;
+}
+header .login:hover{
+    color: #ff060eaf;
+    transition: 0.3s;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: #f08c8fc2;
+    transition: 0.3s;
+}
+
+.filme-principal{
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/gaviao-arqueiro.jpg') no-repeat center center;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.titulo{
+    margin-top: 5%;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botoes{
+    margin-top: 2%;
+ 
+}
+
+.botoes .button{
+    border-radius: 3px;
+    border: none;
+    padding: 15px;
+    margin-left: 10px;
+    color: rgb(255, 254, 254);
+    background-color: rgba(22, 2, 2, 0.664);
+    font-size: 20px;
+}
+
+.botoes .button:hover{
+    background-color: rgb(255, 254, 254);
+    color: #1b0202;
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+.filme-principal .container{
+    margin-left: 5%;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 15px;
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-filme{
+    margin-top: 1%;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(41, 2, 2, 0.61);
+
+}
+
+.text-footer{
+    padding: 15px;
+    text-align: center;
+    color: #AAA;
+}
+
+.link-footer{
+    text-decoration: none;
+    text-align: center;
+    color: #AAA;
+}
+
+.link-footer:hover{
+    transition: 0.5s;
+    color: #E50914;
+}
